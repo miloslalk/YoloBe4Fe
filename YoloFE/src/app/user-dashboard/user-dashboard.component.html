@@ -1,0 +1,65 @@
+<div>
+  <!--class="card-grid"-->
+  <h1 class="title-welcome-paragraph">
+    YOLO YOUTH ONLINE LEARNING OPPORTUNITY
+  </h1>
+  <div class="main-grid">
+    <ul class="card-grid">
+      <li *ngFor="let picture of pictures">
+        <mat-card class="example-card ">
+          <mat-card-header>
+            <mat-card-title>{{ picture.title }}</mat-card-title>
+          </mat-card-header>
+          <img mat-card-image [src]="picture.img" alt="Photo of a Shiba Inu" />
+  
+          <mat-card-actions align="end">
+            <button mat-button routerLink="/user-dashboard-list">More</button>
+          </mat-card-actions>
+        </mat-card>
+      </li>
+    </ul>
+  
+    <div class="section-3">
+      <mat-card class="logo-card">
+        <mat-card-content>
+          <img
+            class="img-part"
+            src="../../assets/cofounded.png"
+            alt=""
+            width="350px"
+            height="66px"
+          />
+        </mat-card-content>
+      </mat-card>
+  
+      <mat-card class="logo-card">
+        <mat-card-content>
+          <p>
+            This website is running with the support of the European Commission.
+            Its content reflects the views only of the author, and the Commission
+            cannot be held responsible for any use which may be made of the
+            information contained there in.
+          </p>
+        </mat-card-content>
+      </mat-card>
+  
+      <mat-card class="logo-card">
+        <mat-card-content>
+          <img
+            src="../../assets/erasmus+logo.png"
+            alt=""
+            width="300px"
+            height="61px"
+          />
+        </mat-card-content>
+      </mat-card>
+  
+      <mat-card class="logo-card">
+        <mat-card-content>
+          <img src="../../assets/eacea.png" alt="" width="300px" height="188px" />
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+
+</div>

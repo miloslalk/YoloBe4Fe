@@ -1,0 +1,53 @@
+<!-- <mat-sidenav-container>
+  <mat-sidenav-content>-->
+<mat-toolbar class="test-test" color="#289dcc">
+  <!-- <div>
+        <a routerLink="/" style="margin-left: 60px">
+          Yolo Learning Platform
+        </a>
+      </div>
+      <div fxFlex fxLayout fxLayoutAlign="flex-end" style="margin-right: 60px">
+        <ul fxLayout fxLayoutGap="20px" class="navigation-items">
+          <li>
+            <a routerLink="/">
+              <span class="label">Home</span>
+            </a>
+          </li>
+          <li>
+            <a routerLink="/user-dashboard">
+              <span class="label">Courses</span>
+            </a>
+          </li>
+        </ul>
+      </div> -->
+
+  <a routerLink="/" class="main-nav">
+    <img
+      src="../assets/logo.png"
+      alt=""
+      height="56px"
+      width="150px"
+      style="margin-top: 10px"
+    />
+  </a>
+
+  <a routerLink="/" class="home">
+    <span class="label">Home</span>
+  </a>
+  <span class="example-spacer-margin"></span>
+  <a routerLink="/user-dashboard" class="course">
+    <span class="label">Courses</span>
+  </a>
+</mat-toolbar>
+<!-- </mat-sidenav-content>
+</mat-sidenav-container> -->
+
+<main class="container">
+  <router-outlet></router-outlet>
+</main>
+
+<mat-toolbar class="test-test footers" color="#289dcc" style="margin-top: 70px">
+  <a routerLink="/" style="margin:0 auto">
+    Copyright © 2019 YOLO
+  </a>
+</mat-toolbar>

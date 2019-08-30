@@ -1,0 +1,541 @@
+.welcome-grid {
+  display: grid;
+
+  grid-template-columns: repeat(12, 1fr);
+
+  margin-left: auto;
+}
+.title-welcome {
+  grid-column: 7/13;
+}
+.title-welcome-paragraph {
+  grid-column: 4/13;
+  font: 400 34px/40px Roboto, "Helvetica Neue", sans-serif;
+}
+
+.section-1 {
+  grid-column: 3/6;
+
+  height: 400px;
+}
+.section-2 {
+  grid-column: 7/13;
+}
+.img-part {
+  align-self: start;
+  justify-self: start;
+}
+.link {
+  text-decoration: none;
+  color: black;
+}
+.card-main {
+  height: 400px;
+}
+.logo-card {
+  width: 305px;
+  border-radius: 0;
+}
+.gal-card {
+  width: 1100px;
+  grid-column: 1/13;
+  margin-bottom: 25px;
+  margin-top: 15px;
+  box-shadow: 2px grey;
+}
+.link:hover {
+  text-decoration: underline;
+}
+
+.link:active {
+  text-decoration: underline;
+}
+
+@media (min-width: 600px) {
+  .title-welcome-paragraph {
+    grid-column: 2/13;
+    font: 400 20px/30px Roboto, "Helvetica Neue", sans-serif;
+  }
+
+  .section-1 {
+    grid-column: 2/8;
+
+    height: 400px;
+    width: 400px;
+  }
+  .section-2 {
+    grid-column: 2/13;
+
+    /* width: 400px; */
+    height: 490px;
+    margin-top: 125px;
+  }
+  .card-main {
+    height: 490px;
+  }
+  .logo-card {
+    width: 450px;
+    border-radius: 0;
+    margin-left: 10px;
+  }
+  .gal-card {
+    width: 600px;
+    grid-column: 1/13;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    box-shadow: 2px grey;
+    /* display: none; */
+  }
+}
+
+@media (min-width: 900px) {
+  .title-welcome-paragraph {
+    grid-column: 3/13;
+    font: 400 20px/30px Roboto, "Helvetica Neue", sans-serif;
+  }
+
+  .section-1 {
+    grid-column: 1/4;
+
+    height: 400px;
+    width: 400px;
+  }
+  .section-2 {
+    grid-column: 6/13;
+
+    margin-top: 0;
+    height: 490px;
+  }
+  .card-main {
+    height: 490px;
+    width: 480px;
+  }
+  .logo-card {
+    width: 305px;
+    border-radius: 0;
+    margin-left: 10px;
+  }
+  .welcome-grid {
+    margin-left: 60px;
+  }
+  .gal-card {
+    width: 900px;
+    grid-column: 1/13;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    box-shadow: 2px grey;
+  }
+}
+
+@media (min-width: 1100px) {
+  .welcome-grid {
+    margin-left: 40px;
+  }
+  .title-welcome {
+    grid-column: 7/13;
+  }
+  .title-welcome-paragraph {
+    grid-column: 4/13;
+    font: 400 30px/30px Roboto, "Helvetica Neue", sans-serif;
+  }
+
+  .section-1 {
+    grid-column: 1/5;
+
+    height: 400px;
+  }
+  .section-2 {
+    grid-column: 5/13;
+    height: 490px;
+  }
+  .img-part {
+    align-self: start;
+    justify-self: start;
+  }
+  .link {
+    text-decoration: none;
+    color: black;
+  }
+  .card-main {
+    height: 400px;
+    width: 680px;
+  }
+  .logo-card {
+    width: 305px;
+    border-radius: 0;
+  }
+  .gal-card {
+    width: 1100px;
+    grid-column: 1/13;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    box-shadow: 2px grey;
+  }
+}
+
+/* test test */
+@media (min-width: 1200px) {
+  .welcome-grid {
+    margin-left: 50px;
+  }
+  .title-welcome {
+    grid-column: 7/13;
+  }
+  .title-welcome-paragraph {
+    grid-column: 4/13;
+    font: 400 30px/30px Roboto, "Helvetica Neue", sans-serif;
+  }
+
+  .section-1 {
+    grid-column: 1/5;
+
+    height: 400px;
+  }
+  .section-2 {
+    grid-column: 5/13;
+    height: 490px;
+    margin-left: 30px;
+  }
+  .img-part {
+    align-self: start;
+    justify-self: start;
+  }
+  .link {
+    text-decoration: none;
+    color: black;
+  }
+  .card-main {
+    height: 400px;
+    width: 680px;
+  }
+  .logo-card {
+    width: 305px;
+    border-radius: 0;
+  }
+  .gal-card {
+    width: 1100px;
+    grid-column: 1/13;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    box-shadow: 2px grey;
+  }
+}
+
+@media (min-width: 1300px) {
+  .welcome-grid {
+    margin-left: 100px;
+  }
+  .title-welcome {
+    grid-column: 7/13;
+  }
+  .title-welcome-paragraph {
+    grid-column: 4/13;
+    font: 400 30px/30px Roboto, "Helvetica Neue", sans-serif;
+  }
+
+  .section-1 {
+    grid-column: 1/5;
+
+    height: 400px;
+  }
+  .section-2 {
+    grid-column: 5/13;
+    height: 490px;
+    margin-left: 30px;
+  }
+  .img-part {
+    align-self: start;
+    justify-self: start;
+  }
+  .link {
+    text-decoration: none;
+    color: black;
+  }
+  .card-main {
+    height: 400px;
+    width: 680px;
+  }
+  .logo-card {
+    width: 305px;
+    border-radius: 0;
+  }
+  .gal-card {
+    width: 1100px;
+    grid-column: 1/13;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    box-shadow: 2px grey;
+  }
+}
+
+@media (min-width: 1450px) {
+  .welcome-grid {
+    margin-left: 200px;
+  }
+  .title-welcome {
+    grid-column: 7/13;
+  }
+  .title-welcome-paragraph {
+    grid-column: 4/13;
+    font: 400 30px/30px Roboto, "Helvetica Neue", sans-serif;
+  }
+
+  .section-1 {
+    grid-column: 1/5;
+
+    height: 400px;
+  }
+  .section-2 {
+    grid-column: 6/13;
+    height: 490px;
+    margin-left: 30px;
+  }
+  .img-part {
+    align-self: start;
+    justify-self: start;
+  }
+  .link {
+    text-decoration: none;
+    color: black;
+  }
+  .card-main {
+    height: 400px;
+    width: 680px;
+  }
+  .logo-card {
+    width: 305px;
+    border-radius: 0;
+  }
+  .gal-card {
+    width: 1140px;
+    grid-column: 1/13;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    box-shadow: 2px grey;
+  }
+}
+
+@media (min-width: 1550px) {
+  .welcome-grid {
+    margin-left: 300px;
+  }
+  .title-welcome {
+    grid-column: 7/13;
+  }
+  .title-welcome-paragraph {
+    grid-column: 4/13;
+    font: 400 30px/30px Roboto, "Helvetica Neue", sans-serif;
+  }
+
+  .section-1 {
+    grid-column: 1/5;
+
+    height: 400px;
+  }
+  .section-2 {
+    grid-column: 7/13;
+    height: 490px;
+    margin-left: 30px;
+  }
+  .img-part {
+    align-self: start;
+    justify-self: start;
+  }
+  .link {
+    text-decoration: none;
+    color: black;
+  }
+  .card-main {
+    height: 400px;
+    width: 680px;
+  }
+  .logo-card {
+    width: 305px;
+    border-radius: 0;
+  }
+  .gal-card {
+    width: 1200px;
+    grid-column: 1/13;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    box-shadow: 2px grey;
+  }
+}
+
+@media (min-width: 1690px) {
+  .welcome-grid {
+    margin-left: 350px;
+  }
+  .title-welcome {
+    grid-column: 7/13;
+  }
+  .title-welcome-paragraph {
+    grid-column: 4/13;
+    font: 400 30px/30px Roboto, "Helvetica Neue", sans-serif;
+  }
+
+  .section-1 {
+    grid-column: 1/5;
+
+    height: 400px;
+  }
+  .section-2 {
+    grid-column: 7/13;
+    height: 490px;
+    margin-left: 30px;
+  }
+  .img-part {
+    align-self: start;
+    justify-self: start;
+  }
+  .link {
+    text-decoration: none;
+    color: black;
+  }
+  .card-main {
+    height: 400px;
+    width: 680px;
+  }
+  .logo-card {
+    width: 305px;
+    border-radius: 0;
+  }
+  .gal-card {
+    width: 1180px;
+    grid-column: 1/13;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    box-shadow: 2px grey;
+  }
+}
+
+@media (max-width: 598px) {
+  .container {
+    padding-left: 0;
+  }
+  .title-welcome-paragraph {
+    grid-column: 1/13;
+    font: 400 28px/40px Roboto, "Helvetica Neue", sans-serif;
+  }
+
+  .section-1 {
+    grid-column: 1/12;
+    margin-top: 25px;
+    height: 400px;
+    width: 400px;
+    margin-left: 25px;
+  }
+  .section-2 {
+    grid-column: 1/12;
+    margin-top: 170px;
+    width: 400px;
+    height: 600px;
+    margin-left: 25px;
+  }
+  .card-main {
+    height: 600px;
+  }
+  .logo-card {
+    width: 350px;
+    border-radius: 0;
+    margin-left: 10px;
+  }
+  .gal-card {
+    /* width: 598px;
+    grid-column: 1/13;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    box-shadow: 2px grey; */
+    display: none;
+  }
+}
+
+@media (max-width: 450px) {
+  .container {
+    padding-left: 0;
+  }
+  .title-welcome-paragraph {
+    grid-column: 1/13;
+    font: 400 28px/40px Roboto, "Helvetica Neue", sans-serif;
+  }
+
+  .section-1 {
+    grid-column: 1/12;
+    margin-top: 25px;
+    height: 400px;
+    width: 400px;
+    margin-left: 0;
+  }
+  .section-2 {
+    grid-column: 1/12;
+    margin-top: 170px;
+    width: 400px;
+    height: 600px;
+    margin-left: 0;
+  }
+  .card-main {
+    height: 600px;
+  }
+  .logo-card {
+    width: 350px;
+    border-radius: 0;
+    margin-left: 10px;
+  }
+  .gal-card {
+    /* width: 598px;
+    grid-column: 1/13;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    box-shadow: 2px grey; */
+    display: none;
+  }
+}
+@media (max-width: 400px) {
+  .welcome-grid {
+    display: grid;
+
+    grid-template-columns: repeat(12, 1fr);
+
+    margin-left: auto;
+    margin-bottom: 300px;
+  }
+  .container {
+    padding-left: 0;
+  }
+  .title-welcome-paragraph {
+    grid-column: 1/13;
+    font: 400 28px/40px Roboto, "Helvetica Neue", sans-serif;
+  }
+
+  .section-1 {
+    grid-column: 1/12;
+    margin-top: 25px;
+    height: 400px;
+    width: 300px;
+    margin-left: 0;
+  }
+  .section-2 {
+    grid-column: 1/12;
+    margin-top: 170px;
+    width: 300px;
+    height: 600px;
+    margin-left: 0;
+  }
+  .card-main {
+    height: 800px;
+    width: 315px;
+  }
+  .logo-card {
+    width: 315px;
+    border-radius: 0;
+    margin-left: 10px;
+  }
+  .gal-card {
+    /* width: 598px;
+    grid-column: 1/13;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    box-shadow: 2px grey; */
+    display: none;
+  }
+}

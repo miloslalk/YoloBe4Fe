@@ -1,0 +1,137 @@
+mat-sidenav-container,
+mat-sidenav-content,
+mat-sidenav {
+  height: 100%;
+}
+
+mat-sidenav {
+  width: 250px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover,
+a:active {
+  color: lightgray;
+}
+
+.navigation-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.icon {
+  display: inline-block;
+  height: 30px;
+  margin: 0 auto;
+  padding-right: 5px;
+  text-align: center;
+  vertical-align: middle;
+  width: 15%;
+}
+
+.label {
+  display: inline-block;
+  line-height: 30px;
+  margin: 0;
+  width: 85%;
+}
+
+/* container test */
+.container {
+  width: 100%;
+  padding-right: 60px;
+  padding-left: 60px;
+  margin-right: auto;
+  margin-left: auto;
+}
+/* novi deo */
+
+/* .example-spacer {
+  flex: 1 1 auto;
+}*/
+/* .test-test {
+  display: flex;
+
+}
+.example-spacer-margin {
+  margin-right: 25px;
+}
+.course {
+  margin-right: 60px;
+}
+.home {
+  margin-left: auto;
+} */
+.main-nav {
+  margin-left: 60px;
+}
+
+@media (min-width: 600px) {
+  .container {
+    max-width: 720px;
+    max-width: 540px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .example-spacer-margin {
+    margin-right: 25px;
+  }
+  .course {
+    margin-right: 60px;
+  }
+  .home {
+    margin-left: auto;
+  }
+}
+
+@media (min-width: 900px) {
+  .container {
+    max-width: 960px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+@media (min-width: 1100px) {
+  .container {
+    max-width: 1100px;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 598px) {
+  .container {
+    max-width: 540px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .example-spacer-margin {
+    margin-right: 0;
+  }
+  .home a {
+    margin: 0;
+  }
+  .test-test {
+    /* display: flex; */
+    flex-direction: column;
+    overflow: hidden;
+    height: 150px;
+  }
+  .main-nav {
+    margin-left: 0;
+  }
+}
+
+mat-toolbar {
+  background: #289dcc;
+}
+
+.footers {
+  margin-top: 250px;
+}
